@@ -22,14 +22,6 @@ const Navbar = () => {
     });
   };
 
-//   const formatTime = (date) => {
-//     return date.toLocaleTimeString('en-US', {
-//       hour: '2-digit',
-//       minute: '2-digit',
-//       second: '2-digit',
-//     });
-//   };
-
   return (
     <nav className="bg-gray-800 p-4 text-white">
       <div className="container mx-auto flex justify-between items-center">
