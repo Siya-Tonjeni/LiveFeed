@@ -7,9 +7,8 @@ const Navbar = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentTime(new Date());
-    }, 1000); // Update every second
+    }, 1000); 
 
-    // Clean up the interval on component unmount
     return () => clearInterval(timer);
   }, []);
 
@@ -38,7 +37,6 @@ const Navbar = () => {
           
           <div className="text-right">
             <div>{formatDate(currentTime)}</div>
-            {/* <div>{formatTime(currentTime)}</div> */}
           </div>
         </div>
       </div>

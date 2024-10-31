@@ -8,8 +8,6 @@ const TaskItem = ({ task, deleteTask }) => {
       <p className="text-gray-300 mb-2">{task.smallDescription}</p>
       <p className="text-gray-400 mb-2">{task.date}</p>
       
-
-      {/* Progress Bar */}
       <div className="h-2 w-full bg-gray-700 rounded mb-2">
       
         <div
@@ -21,12 +19,10 @@ const TaskItem = ({ task, deleteTask }) => {
         <p className="text-sm text-gray-600 mb-3">Progress: {(task.progress / 10).toFixed(1)} / 10</p>
       </div>
 
-      {/* Delete Button */}
       <button
         onClick={deleteTask}
         className="absolute top-2 right-2 text-gray-400 hover:text-red-600 transition duration-300 ease-in-out"
       >
-        {/* 🗑️ Replace this with an actual bin icon if needed */}
         <MdDelete/>
       </button>
     </div>

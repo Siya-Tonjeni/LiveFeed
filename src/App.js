@@ -4,7 +4,7 @@ import TaskList from './components/TaskList';
 import Navbar from './components/Navbar';
 
 function App() {
-  const [tasks, setTasks] = useState([]); // State to manage tasks
+  const [tasks, setTasks] = useState([]); 
 
   // Function to add a task
   const addTask = (task) => {
