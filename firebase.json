@@ -21,7 +21,7 @@
   ],
   "hosting": {
     "site": "live-feed-f705b-3da59",
-    "public": "public",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
