@@ -8,8 +8,8 @@ const firebaseConfig = {
   projectId: "live-feed-f705b",
   storageBucket: "live-feed-f705b.firebasestorage.app",
   messagingSenderId: "991313659728",
-  appId: "1:991313659728:web:81003c1698d6a0efeb4e55",
-  measurementId: "G-TGZXR91BB8"
+  appId: "1:991313659728:web:71afa278083b2f51eb4e55",
+  measurementId: "G-9F7FDBQ454"
 };
 
 const app = initializeApp(firebaseConfig);
